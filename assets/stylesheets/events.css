@@ -1,0 +1,161 @@
+.container_event {
+  text-align: center;
+}
+
+#search-input {
+  margin: 20px 40px;
+  padding: 10px 50px;
+  border: 2px #004346 solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  align-items: center;
+}
+
+.brands_dropdown {
+  display: none;
+  position: relative;
+  width: 100%;
+  border: 1px solid #004346;
+  border-radius: 30px;
+  background: #ffe1d4;
+  padding: 0;
+  margin: 0;
+}
+
+.brands_dropdown ol {
+  padding: 5px 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* SECTION FOR LOGIN, REG AND TICKTES */
+.form_model {
+  display: flex;
+  width: 967px;
+  justify-content: center;
+  flex-shrink: 0;
+  /* background-color: #ffcda2; */
+  background-color: rgb(228, 228, 228);
+  overflow: hidden;
+  background-repeat: repeat;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.form-container {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  /* border: 3px solid rgb(218, 213, 213); */
+  /* margin-top: 60px ; */
+  width: 100%;
+  display: grid;
+  position: relative;
+  /* background-color: #ffe1d49a; */
+  background: url(../images/african.jpg);
+}
+
+.form-container2 {
+  /* width: 320px; */
+  /* height: 58vh; */
+  text-align: center;
+  box-sizing: border-box;
+  color: azure;
+  position: relative;
+  padding: 20px;
+  border: 3px solid rgb(218, 213, 213);
+  margin: 60px;
+  width: 100%;
+  background-color: #004346;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+.form-item {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.tail-layout {
+  place-items: end;
+  position: absolute;
+  right: -40px;
+  top: 200px;
+  justify-content: space-between;
+}
+
+.login_btn {
+  padding: 20px 0px;
+  margin: 10px;
+  border-radius: 15px;
+  /* background-color: #ffcda2; */
+  background-color: rgb(228, 228, 228);
+  color: #000;
+  border: #ffe1d481;
+  width: 200px;
+  cursor: pointer;
+}
+.login_btn:hover {
+  background-color: rgba(247, 241, 236, 0.979);
+}
+.form-item input {
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+}
+.form-item select {
+  padding: 10px;
+  width: 93%;
+  border-radius: 10px;
+}
+.form-item textarea {
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+}
+#anchor_tag {
+  color: azure;
+  text-decoration: underline;
+}
+
+/* Section for popup menu */
+#popup-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #a31b1b;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* .password-container {
+  position: relative;
+} */
+
+#password-toggle {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
